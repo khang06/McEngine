@@ -154,6 +154,19 @@ UString UString::format(const char *utf8format, ...)
 
 		buf = new wchar_t[bufSize];
 
+#ifdef _MSC_VER
+		// MSVC's standard library is horribly broken and switched the meaning of %s and %S for wide char functions
+		// TODO: this doesn't handle patterns like "%%s"
+		while (true) {
+			int pos = formatted.find("%s");
+			if (pos == -1)
+				break;
+
+			formatted.mUnicode[pos + 1] = L'S';
+		}
+		formatted.updateUtf8();
+#endif
+
 		va_list ap;
 		va_start(ap, utf8format);
 		written = vswprintf(buf, bufSize, formatted.mUnicode, ap);
