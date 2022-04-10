@@ -123,7 +123,7 @@ void WinEnvironment::sleep(unsigned int us)
 UString WinEnvironment::getUsername()
 {
 	DWORD username_len = UNLEN+1;
-	wchar_t username[username_len];
+	wchar_t username[UNLEN + 1]; // MSVC doesn't like variable length stack arrays
 
 	if (GetUserNameW(username, &username_len))
 		return UString(username);
@@ -133,7 +133,11 @@ UString WinEnvironment::getUsername()
 
 UString WinEnvironment::getUserDataPath()
 {
+#ifdef PATH_MAX
 	wchar_t path[PATH_MAX];
+#else
+	wchar_t path[MAX_PATH];
+#endif
 
 	if (SUCCEEDED(SHGetFolderPathW(NULL, CSIDL_LOCAL_APPDATA, NULL, 0, path)))
 		return UString(path);

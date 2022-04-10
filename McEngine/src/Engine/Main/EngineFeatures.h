@@ -16,7 +16,9 @@
 /*
  * pthread support
  */
+#ifndef _MSC_VER
 #define MCENGINE_FEATURE_PTHREADS
+#endif
 
 /*
  * OpenGL graphics (Desktop, legacy + modern)

@@ -45,10 +45,8 @@
 //	Include App here  //
 //********************//
 
-//#include "Osu.h"
-//#include "GUICoherenceMode.h"
-//#include "Asteroids.h"
-#include "FrameworkTest.h"
+#include "Osu.h"
+//#include "FrameworkTest.h"
 
 
 
@@ -327,13 +325,13 @@ void Engine::loadApp()
 		//	Load App here  //
 		//*****************//
 
-		//m_app = new Osu();
+		m_app = new Osu();
 
 		//m_app = new GUICoherenceMode();
 
 		//m_app = new Asteroids();
 
-		m_app = new FrameworkTest();
+		//m_app = new FrameworkTest();
 
 
 

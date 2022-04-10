@@ -11,6 +11,10 @@
 #include <wctype.h>
 #include <string.h>
 
+#ifdef _MSC_VER
+#include <cwctype>
+#endif
+
 #define USTRING_MASK_1BYTE  0x80 /* 1000 0000 */
 #define USTRING_VALUE_1BYTE 0x00 /* 0000 0000 */
 #define USTRING_MASK_2BYTE  0xE0 /* 1110 0000 */

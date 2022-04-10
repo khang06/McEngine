@@ -22,8 +22,10 @@
 #include <gl/glu.h>
 #include <gl/gl.h>
 
+#ifndef _MSC_VER
 #include <gl/wglext.h>
 #include <gl/glext.h>
+#endif
 
 #endif
 

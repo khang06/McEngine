@@ -54,6 +54,39 @@ private:
 	bool m_bReady;
 };
 
+#elif defined(_MSC_VER)
+
+#include <Windows.h>
+
+class WindowsThread : public BaseThread {
+public:
+	WindowsThread(McThread::START_ROUTINE start_routine, void* arg) : BaseThread() {
+		m_thread = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)start_routine, arg, 0, NULL);
+		m_bReady = (m_thread != NULL);
+
+		if (m_thread == NULL)
+			debugLog("WindowsThread Error: CreateThread() failed! GetLastError %i\n", GetLastError());
+	}
+
+	virtual ~WindowsThread() {
+		if (!m_bReady)
+			return;
+		m_bReady = false;
+
+		WaitForSingleObject(m_thread, INFINITE);
+
+		m_thread = NULL;
+	}
+
+	bool isReady() {
+		return m_bReady;
+	}
+
+private:
+	HANDLE m_thread;
+	bool m_bReady;
+};
+
 #endif
 
 #endif
@@ -75,6 +108,10 @@ McThread::McThread(START_ROUTINE start_routine, void *arg)
 #elif defined(__SWITCH__)
 
 	m_baseThread = new HorizonThread(start_routine, arg);
+
+#elif defined(_MSC_VER)
+
+	m_baseThread = new WindowsThread(start_routine, arg);
 
 #else
 #error Missing Thread implementation for OS!

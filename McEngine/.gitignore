@@ -1,2 +1,8 @@
 /Windows Release/
 /Windows Debug/
+
+msvc/.vs/
+msvc/Release/
+msvc/Debug/
+msvc/x64/
+msvc/*.user

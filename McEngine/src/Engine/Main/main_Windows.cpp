@@ -26,6 +26,10 @@
 #include <windows.h>
 #include <dwmapi.h>
 
+#ifdef _MSC_VER
+#define WINBOOL BOOL
+#endif
+
 
 
 #ifdef MCENGINE_FEATURE_SDL

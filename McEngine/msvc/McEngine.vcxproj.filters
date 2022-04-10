@@ -1,0 +1,1206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{7cef8944-4cf7-49bc-8741-f7ad7cc28573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{2302c7e5-df92-4de9-8a13-33c2a9922cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{21044e7f-4a64-471d-8983-19a5da770b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{b486b84b-525b-4660-8325-e6f791fdf5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Input">
+      <UniqueIdentifier>{eea28a09-7419-4ec5-a924-abc120ebd80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Main">
+      <UniqueIdentifier>{107d800c-016b-4d53-b356-8ca8143af002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Platform">
+      <UniqueIdentifier>{9068eccd-e5d4-4dd0-89f0-42d16101ba69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Renderer">
+      <UniqueIdentifier>{f79816eb-beac-4d09-bc94-b3dff0ddbfe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Input">
+      <UniqueIdentifier>{494ef0af-513f-4698-a5bf-39ef878cf03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Main">
+      <UniqueIdentifier>{cca7d149-ded1-420b-8514-0c499721cac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Platform">
+      <UniqueIdentifier>{451f1cab-34e1-4f19-b9a4-85b3531fca14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Renderer">
+      <UniqueIdentifier>{30a6b64c-8b0a-4069-be3b-0ae716f217df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{51c38095-6198-49d6-bdd4-3fa659f52b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{367e2972-c4dd-4679-80fb-7d78bd840da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Windows">
+      <UniqueIdentifier>{5461d445-ffc0-46bc-94d7-b933056681c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Windows">
+      <UniqueIdentifier>{c47a3469-7e13-4076-9a28-4e5439b0b43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{e7c6505e-e46a-4a50-b575-8732d757e300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{ca75690e-e4d3-43cc-9ec9-8d49c7404a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App\Osu">
+      <UniqueIdentifier>{8e63f935-d5cc-4fc4-8086-1774acc6c174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App\Osu">
+      <UniqueIdentifier>{aa367cce-f652-4a46-bafa-169492dd5184}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Engine\AnimationHandler.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Camera.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\ContextMenu.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\ConVar.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\DiscordInterface.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Environment.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Font.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Graphics.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Image.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\NetworkHandler.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\OpenCLInterface.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\OpenVRInterface.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Profiler.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\RenderTarget.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Resource.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\ResourceManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Shader.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Sound.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\SoundEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\SquirrelInterface.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\SteamworksInterface.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\TextureAtlas.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\VertexArrayObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\VulkanInterface.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Input\Gamepad.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Input\Keyboard.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Input\KeyboardEvent.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Input\Mouse.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Input\OpenVRController.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Main\main_Windows.cpp">
+      <Filter>Source Files\Engine\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11Image.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11Interface.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11RenderTarget.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11Shader.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11VertexArrayObject.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\NullGraphicsInterface.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\NullImage.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\NullRenderTarget.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\NullShader.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGL3Interface.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGL3VertexArrayObject.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLES2Interface.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLES2Shader.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLES2VertexArrayObject.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLImage.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLLegacyInterface.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLRenderTarget.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLShader.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLVertexArrayObject.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\SWGraphicsInterface.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\SWImage.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\SWRenderTarget.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\SWShader.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Renderer\VulkanGraphicsInterface.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\File.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\NullContextMenu.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\NullEnvironment.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\SDLEnvironment.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\SDLGLES2Interface.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\SDLGLLegacyInterface.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\Thread.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\Timer.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\WinContextMenu.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\WinEnvironment.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\WinFile.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\WinGL3Interface.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\WinGLLegacyInterface.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\WinSDLEnvironment.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\WinSDLGLES2Interface.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\WinSWGraphicsInterface.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\WinTimer.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Platform\XInputGamepad.cpp">
+      <Filter>Source Files\Engine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\Windows\Console.cpp">
+      <Filter>Source Files\GUI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\Windows\ConsoleBox.cpp">
+      <Filter>Source Files\GUI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\Windows\VisualProfiler.cpp">
+      <Filter>Source Files\GUI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIBoxShadow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIButton.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUICanvas.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUICheckbox.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIContainer.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIContainerBase.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIContainerBox.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIContainerHorizontalBox.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIContainerVerticalBox.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIElement.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIImage.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIImageButton.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUILabel.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIScrollView.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUISlider.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUITextbox.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUITextField.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CBaseUIWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\CWindowManager.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GUI\GaussianBlurKernel.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\LzmaDec.c">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\miniz.c">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\AES.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\JSON.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\JSONValue.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\lodepng.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\Matrices.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\MD5.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\Quaternion.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\Rect.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\UString.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\Osu.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\Osu2.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuBackgroundImageHandler.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuBackgroundStarCacheLoader.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuBeatmap.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuBeatmapExample.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuBeatmapMania.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuBeatmapStandard.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuChangelog.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuCircle.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuDatabase.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuDatabaseBeatmap.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuDifficultyCalculator.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuEditor.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuFile.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuGameRules.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuGameRulesMania.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuHitObject.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuHUD.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuIcons.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuKeyBindings.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuMainMenu.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuManiaNote.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuModFPoSu.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuModSelector.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuMultiplayer.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuNotificationOverlay.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuOptionsMenu.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuPauseMenu.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuRankingScreen.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuReplay.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuRichPresence.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuScore.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuScreen.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuScreenBackable.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuSkin.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuSkinImage.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuSlider.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuSliderCurves.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuSliderRenderer.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuSongBrowser2.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuSpinner.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuSteamWorkshop.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuTooltipOverlay.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUIBackButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUIButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUICheckbox.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUIContextMenu.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUIModSelectorModButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUIPauseMenuButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUIRankingScreenInfoLabel.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUIRankingScreenRankingPanel.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISearchOverlay.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISelectionButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISlider.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserCollectionButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserInfoLabel.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserScoreButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserSongButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserSongDifficultyButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserUserButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUIVolumeSlider.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUpdateHandler.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuUserStatsScreen.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuVR.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuVRTutorial.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuVRUIButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuVRUIElement.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuVRUIImageButton.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuVRUIImageCheckbox.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\App\Osu\OsuVRUISlider.cpp">
+      <Filter>Source Files\App\Osu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\App\App.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\AnimationHandler.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Camera.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\ContextMenu.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\ConVar.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\DiscordInterface.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Environment.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\File.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Font.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Graphics.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Image.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\InputDevice.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\NetworkHandler.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\OpenCLInterface.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\OpenVRInterface.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Profiler.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\RenderTarget.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Resource.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\ResourceManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Shader.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Sound.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\SoundEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\SquirrelInterface.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\SteamworksInterface.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\TextureAtlas.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Thread.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Timer.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\VertexArrayObject.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\VulkanInterface.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\Cursors.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\Gamepad.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\GamepadButtons.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\GamepadEvent.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\GamepadListener.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\Keyboard.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\KeyboardEvent.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\KeyboardListener.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\Mouse.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\MouseListener.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Input\OpenVRController.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Main\EngineFeatures.h">
+      <Filter>Header Files\Engine\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11Image.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11Interface.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11RenderTarget.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11Shader.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11VertexArrayObject.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\NullGraphicsInterface.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\NullImage.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\NullRenderTarget.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\NullShader.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGL3Interface.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGL3VertexArrayObject.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLES2Interface.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLES2Shader.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLES2VertexArrayObject.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLImage.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLLegacyInterface.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLRenderTarget.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLShader.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLVertexArrayObject.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\SWGraphicsInterface.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\SWImage.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\SWRenderTarget.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\SWShader.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Renderer\VulkanGraphicsInterface.h">
+      <Filter>Header Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\KeyboardKeys.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\NullContextMenu.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\NullEnvironment.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\OpenGLHeaders.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\SDLEnvironment.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\SDLGLES2Interface.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\SDLGLLegacyInterface.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinContextMenu.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinEnvironment.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinFile.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinGL3Interface.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinGLLegacyInterface.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinMinGW.Mutex.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinMinGW.secchk.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinRealTimeStylus.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinSDLEnvironment.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinSDLGLES2Interface.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinSWGraphicsInterface.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\WinTimer.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Platform\XInputGamepad.h">
+      <Filter>Header Files\Engine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\Windows\Console.h">
+      <Filter>Header Files\GUI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\Windows\ConsoleBox.h">
+      <Filter>Header Files\GUI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\Windows\VisualProfiler.h">
+      <Filter>Header Files\GUI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIBoxShadow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIButton.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUICanvas.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUICheckbox.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIContainer.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIContainerBase.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIContainerBox.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIContainerHorizontalBox.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIContainerVerticalBox.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIElement.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIImage.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIImageButton.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUILabel.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIScrollView.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUISlider.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUITextbox.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUITextField.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CBaseUIWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\CWindowManager.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GUI\GaussianBlurKernel.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\AES.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\cbase.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\FastDelegate.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\JSON.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\JSONValue.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\lodepng.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\LzmaDec.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\Matrices.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\MD5.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\miniz.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\Quaternion.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\Rect.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\UString.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\Vectors.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\Osu.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\Osu2.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuBackgroundImageHandler.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuBackgroundStarCacheLoader.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuBeatmap.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuBeatmapExample.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuBeatmapMania.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuBeatmapStandard.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuChangelog.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuCircle.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuDatabase.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuDatabaseBeatmap.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuDifficultyCalculator.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuEditor.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuFile.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuGameRules.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuGameRulesMania.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuHitObject.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuHUD.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuIcons.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuKeyBindings.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuMainMenu.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuManiaNote.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuModFPoSu.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuModSelector.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuMultiplayer.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuNotificationOverlay.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuOptionsMenu.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuPauseMenu.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuRankingScreen.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuReplay.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuRichPresence.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuScore.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuScreen.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuScreenBackable.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuSkin.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuSkinImage.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuSlider.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuSliderCurves.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuSliderRenderer.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuSongBrowser2.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuSpinner.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuSteamWorkshop.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuTooltipOverlay.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUIBackButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUIButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUICheckbox.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUIContextMenu.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUIModSelectorModButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUIPauseMenuButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUIRankingScreenInfoLabel.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUIRankingScreenRankingPanel.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISearchOverlay.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISelectionButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISlider.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserCollectionButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserInfoLabel.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserScoreButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserSongButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserSongDifficultyButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserUserButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUIVolumeSlider.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUpdateHandler.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuUserStatsScreen.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuVR.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuVRTutorial.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuVRUIButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuVRUIElement.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuVRUIImageButton.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuVRUIImageCheckbox.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\App\Osu\OsuVRUISlider.h">
+      <Filter>Header Files\App\Osu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

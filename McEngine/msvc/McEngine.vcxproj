@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6fce1b2f-0e7c-4851-b154-c8661960740e}</ProjectGuid>
+    <RootNamespace>McEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)/../src/Engine/Main;$(ProjectDir)/../src/App/FrameworkTest;$(ProjectDir)/../src/Game;$(ProjectDir)/../src/GUI;$(ProjectDir)/../src/GUI/Windows;$(ProjectDir)/../src/App;$(ProjectDir)/../src/Util;$(ProjectDir)/../src/Engine;$(ProjectDir)/../src/Engine/Platform;$(ProjectDir)/../src/Engine/Input;$(ProjectDir)/../src/Engine/Renderer;$(ProjectDir)/../libraries/discord-rpc/include;$(ProjectDir)/../libraries/steamworks/include;$(ProjectDir)/../libraries/sdl_mixer/include;$(ProjectDir)/../libraries/sdl/include;$(ProjectDir)/../libraries/openvr/include;$(ProjectDir)/../libraries/libcurl/include;$(ProjectDir)/../libraries/bullet/include;$(ProjectDir)/../libraries/xinput/include;$(ProjectDir)/../libraries/enet/include;$(ProjectDir)/../libraries/glew/include;$(ProjectDir)/../libraries/glew/include/GL;$(ProjectDir)/../libraries/freetype/include;$(ProjectDir)/../libraries/opencl/include;$(ProjectDir)/../libraries/vulkan/include;$(ProjectDir)/../libraries/bass/include;$(ProjectDir)/../libraries/bassfx/include;$(ProjectDir)/../libraries/libjpeg/include</IncludePath>
+    <LibraryPath>$(ProjectDir)/../libraries/discord-rpc/lib/windows;$(ProjectDir)/../libraries/steamworks/lib/windows;$(ProjectDir)/../libraries/sdl_mixer/lib/windows;$(ProjectDir)/../libraries/sdl/lib/windows;$(ProjectDir)/../libraries/openvr/lib/windows;$(ProjectDir)/../libraries/libcurl/lib/windows;$(ProjectDir)/../libraries/bullet/lib/windows;$(ProjectDir)/../libraries/xinput/lib/windows;$(ProjectDir)/../libraries/enet/lib/windows;$(ProjectDir)/../libraries/glew/lib/windows;$(ProjectDir)/../libraries/freetype/lib/windows;$(ProjectDir)/../libraries/opencl/lib/windows;$(ProjectDir)/../libraries/vulkan/lib/windows;$(ProjectDir)/../libraries/bass/lib/windows;$(ProjectDir)/../libraries/bassfx/lib/windows;$(ProjectDir)/../libraries/bassmix/lib/windows;$(ProjectDir)/../libraries/basswasapi/lib/windows;$(ProjectDir)/../libraries/libjpeg/lib/windows;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)/../src/Engine/Main;$(ProjectDir)/../src/App/Osu;$(ProjectDir)/../src/Game;$(ProjectDir)/../src/GUI;$(ProjectDir)/../src/GUI/Windows;$(ProjectDir)/../src/App;$(ProjectDir)/../src/Util;$(ProjectDir)/../src/Engine;$(ProjectDir)/../src/Engine/Platform;$(ProjectDir)/../src/Engine/Input;$(ProjectDir)/../src/Engine/Renderer;$(ProjectDir)/../libraries/discord-rpc/include;$(ProjectDir)/../libraries/steamworks/include;$(ProjectDir)/../libraries/sdl_mixer/include;$(ProjectDir)/../libraries/sdl/include;$(ProjectDir)/../libraries/openvr/include;$(ProjectDir)/../libraries/libcurl/include;$(ProjectDir)/../libraries/bullet/include;$(ProjectDir)/../libraries/xinput/include;$(ProjectDir)/../libraries/enet/include;$(ProjectDir)/../libraries/glew/include;$(ProjectDir)/../libraries/glew/include/GL;$(ProjectDir)/../libraries/freetype/include;$(ProjectDir)/../libraries/opencl/include;$(ProjectDir)/../libraries/vulkan/include;$(ProjectDir)/../libraries/bass/include;$(ProjectDir)/../libraries/bassfx/include;$(ProjectDir)/../libraries/libjpeg/include</IncludePath>
+    <LibraryPath>$(ProjectDir)/../libraries/discord-rpc/lib64/windows;$(ProjectDir)/../libraries/steamworks/lib64/windows;$(ProjectDir)/../libraries/sdl_mixer/lib64/windows;$(ProjectDir)/../libraries/sdl/lib64/windows;$(ProjectDir)/../libraries/openvr/lib64/windows;$(ProjectDir)/../libraries/libcurl/lib64/windows;$(ProjectDir)/../libraries/bullet/lib64/windows;$(ProjectDir)/../libraries/enet/lib64/windows;$(ProjectDir)/../libraries/glew/lib64/windows;$(ProjectDir)/../libraries/freetype/lib64/windows;$(ProjectDir)/../libraries/opencl/lib64/windows;$(ProjectDir)/../libraries/vulkan/lib64/windows;$(ProjectDir)/../libraries/bass/lib64/windows;$(ProjectDir)/../libraries/bassfx/lib64/windows;$(ProjectDir)/../libraries/bassmix/lib64/windows;$(ProjectDir)/../libraries/basswasapi/lib64/windows;$(ProjectDir)/../libraries/libjpeg/lib64/windows;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)/../src/Engine/Main;$(ProjectDir)/../src/App/Osu;$(ProjectDir)/../src/Game;$(ProjectDir)/../src/GUI;$(ProjectDir)/../src/GUI/Windows;$(ProjectDir)/../src/App;$(ProjectDir)/../src/Util;$(ProjectDir)/../src/Engine;$(ProjectDir)/../src/Engine/Platform;$(ProjectDir)/../src/Engine/Input;$(ProjectDir)/../src/Engine/Renderer;$(ProjectDir)/../libraries/discord-rpc/include;$(ProjectDir)/../libraries/steamworks/include;$(ProjectDir)/../libraries/sdl_mixer/include;$(ProjectDir)/../libraries/sdl/include;$(ProjectDir)/../libraries/openvr/include;$(ProjectDir)/../libraries/libcurl/include;$(ProjectDir)/../libraries/bullet/include;$(ProjectDir)/../libraries/xinput/include;$(ProjectDir)/../libraries/enet/include;$(ProjectDir)/../libraries/glew/include;$(ProjectDir)/../libraries/glew/include/GL;$(ProjectDir)/../libraries/freetype/include;$(ProjectDir)/../libraries/opencl/include;$(ProjectDir)/../libraries/vulkan/include;$(ProjectDir)/../libraries/bass/include;$(ProjectDir)/../libraries/bassfx/include;$(ProjectDir)/../libraries/libjpeg/include</IncludePath>
+    <LibraryPath>$(ProjectDir)/../libraries/discord-rpc/lib64/windows;$(ProjectDir)/../libraries/steamworks/lib64/windows;$(ProjectDir)/../libraries/sdl_mixer/lib64/windows;$(ProjectDir)/../libraries/sdl/lib64/windows;$(ProjectDir)/../libraries/openvr/lib64/windows;$(ProjectDir)/../libraries/libcurl/lib64/windows;$(ProjectDir)/../libraries/bullet/lib64/windows;$(ProjectDir)/../libraries/enet/lib64/windows;$(ProjectDir)/../libraries/glew/lib64/windows;$(ProjectDir)/../libraries/freetype/lib64/windows;$(ProjectDir)/../libraries/opencl/lib64/windows;$(ProjectDir)/../libraries/vulkan/lib64/windows;$(ProjectDir)/../libraries/bass/lib64/windows;$(ProjectDir)/../libraries/bassfx/lib64/windows;$(ProjectDir)/../libraries/bassmix/lib64/windows;$(ProjectDir)/../libraries/basswasapi/lib64/windows;$(ProjectDir)/../libraries/libjpeg/lib64/windows;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>bass.lib;bass_fx.lib;bassmix.lib;basswasapi.lib;discord-rpc.lib;enet.lib;freetype.lib;glew32s.lib;libcurl.lib;libjpeg.lib;openvr_api.lib;steam_api.lib;vulkan-1.lib;libxinput9_1_0.lib;legacy_stdio_definitions.lib;opengl32.lib;comctl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NOMINMAX;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>bass.lib;bass_fx.lib;bassmix.lib;basswasapi.lib;discord-rpc.lib;enet.lib;freetype.lib;glew32s.lib;libcurl.lib;libjpeg-9.lib;openvr_api.lib;steam_api64.lib;vulkan-1.lib;xinput9_1_0.lib;legacy_stdio_definitions.lib;opengl32.lib;comctl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NOMINMAX;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>bass.lib;bass_fx.lib;bassmix.lib;basswasapi.lib;discord-rpc.lib;enet.lib;freetype.lib;glew32s.lib;libcurl.lib;libjpeg-9.lib;openvr_api.lib;steam_api64.lib;vulkan-1.lib;xinput9_1_0.lib;legacy_stdio_definitions.lib;opengl32.lib;comctl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\App\Osu\Osu.cpp" />
+    <ClCompile Include="..\src\App\Osu\Osu2.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuBackgroundImageHandler.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuBackgroundStarCacheLoader.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuBeatmap.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuBeatmapExample.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuBeatmapMania.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuBeatmapStandard.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuChangelog.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuCircle.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuDatabase.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuDatabaseBeatmap.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuDifficultyCalculator.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuEditor.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuFile.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuGameRules.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuGameRulesMania.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuHitObject.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuHUD.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuIcons.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuKeyBindings.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuMainMenu.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuManiaNote.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuModFPoSu.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuModSelector.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuMultiplayer.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuNotificationOverlay.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuOptionsMenu.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuPauseMenu.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuRankingScreen.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuReplay.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuRichPresence.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuScore.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuScreen.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuScreenBackable.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuSkin.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuSkinImage.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuSlider.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuSliderCurves.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuSliderRenderer.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuSongBrowser2.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuSpinner.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuSteamWorkshop.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuTooltipOverlay.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUIBackButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUIButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUICheckbox.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUIContextMenu.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUIModSelectorModButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUIPauseMenuButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUIRankingScreenInfoLabel.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUIRankingScreenRankingPanel.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISearchOverlay.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISelectionButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISlider.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserCollectionButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserInfoLabel.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserScoreButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserSongButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserSongDifficultyButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUISongBrowserUserButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUIVolumeSlider.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUpdateHandler.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuUserStatsScreen.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuVR.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuVRTutorial.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuVRUIButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuVRUIElement.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuVRUIImageButton.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuVRUIImageCheckbox.cpp" />
+    <ClCompile Include="..\src\App\Osu\OsuVRUISlider.cpp" />
+    <ClCompile Include="..\src\Engine\AnimationHandler.cpp" />
+    <ClCompile Include="..\src\Engine\Camera.cpp" />
+    <ClCompile Include="..\src\Engine\ContextMenu.cpp" />
+    <ClCompile Include="..\src\Engine\ConVar.cpp" />
+    <ClCompile Include="..\src\Engine\DiscordInterface.cpp" />
+    <ClCompile Include="..\src\Engine\Engine.cpp" />
+    <ClCompile Include="..\src\Engine\Environment.cpp" />
+    <ClCompile Include="..\src\Engine\Font.cpp" />
+    <ClCompile Include="..\src\Engine\Graphics.cpp" />
+    <ClCompile Include="..\src\Engine\Image.cpp" />
+    <ClCompile Include="..\src\Engine\Input\Gamepad.cpp" />
+    <ClCompile Include="..\src\Engine\Input\Keyboard.cpp" />
+    <ClCompile Include="..\src\Engine\Input\KeyboardEvent.cpp" />
+    <ClCompile Include="..\src\Engine\Input\Mouse.cpp" />
+    <ClCompile Include="..\src\Engine\Input\OpenVRController.cpp" />
+    <ClCompile Include="..\src\Engine\Main\main_Windows.cpp" />
+    <ClCompile Include="..\src\Engine\NetworkHandler.cpp" />
+    <ClCompile Include="..\src\Engine\OpenCLInterface.cpp" />
+    <ClCompile Include="..\src\Engine\OpenVRInterface.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\File.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\NullContextMenu.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\NullEnvironment.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\SDLEnvironment.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\SDLGLES2Interface.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\SDLGLLegacyInterface.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\Thread.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\Timer.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\WinContextMenu.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\WinEnvironment.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\WinFile.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\WinGL3Interface.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\WinGLLegacyInterface.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\WinSDLEnvironment.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\WinSDLGLES2Interface.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\WinSWGraphicsInterface.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\WinTimer.cpp" />
+    <ClCompile Include="..\src\Engine\Platform\XInputGamepad.cpp" />
+    <ClCompile Include="..\src\Engine\Profiler.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11Image.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11Interface.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11RenderTarget.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11Shader.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\DirectX11VertexArrayObject.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\NullGraphicsInterface.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\NullImage.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\NullRenderTarget.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\NullShader.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGL3Interface.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGL3VertexArrayObject.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLES2Interface.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLES2Shader.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLES2VertexArrayObject.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLImage.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLLegacyInterface.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLRenderTarget.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLShader.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\OpenGLVertexArrayObject.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\SWGraphicsInterface.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\SWImage.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\SWRenderTarget.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\SWShader.cpp" />
+    <ClCompile Include="..\src\Engine\Renderer\VulkanGraphicsInterface.cpp" />
+    <ClCompile Include="..\src\Engine\RenderTarget.cpp" />
+    <ClCompile Include="..\src\Engine\Resource.cpp" />
+    <ClCompile Include="..\src\Engine\ResourceManager.cpp" />
+    <ClCompile Include="..\src\Engine\Shader.cpp" />
+    <ClCompile Include="..\src\Engine\Sound.cpp" />
+    <ClCompile Include="..\src\Engine\SoundEngine.cpp" />
+    <ClCompile Include="..\src\Engine\SquirrelInterface.cpp" />
+    <ClCompile Include="..\src\Engine\SteamworksInterface.cpp" />
+    <ClCompile Include="..\src\Engine\TextureAtlas.cpp" />
+    <ClCompile Include="..\src\Engine\VertexArrayObject.cpp" />
+    <ClCompile Include="..\src\Engine\VulkanInterface.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIBoxShadow.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIButton.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUICanvas.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUICheckbox.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIContainer.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIContainerBase.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIContainerBox.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIContainerHorizontalBox.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIContainerVerticalBox.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIElement.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIImage.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIImageButton.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUILabel.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIScrollView.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUISlider.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUITextbox.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUITextField.cpp" />
+    <ClCompile Include="..\src\GUI\CBaseUIWindow.cpp" />
+    <ClCompile Include="..\src\GUI\CWindowManager.cpp" />
+    <ClCompile Include="..\src\GUI\GaussianBlurKernel.cpp" />
+    <ClCompile Include="..\src\GUI\Windows\Console.cpp" />
+    <ClCompile Include="..\src\GUI\Windows\ConsoleBox.cpp" />
+    <ClCompile Include="..\src\GUI\Windows\VisualProfiler.cpp" />
+    <ClCompile Include="..\src\Util\AES.cpp" />
+    <ClCompile Include="..\src\Util\JSON.cpp" />
+    <ClCompile Include="..\src\Util\JSONValue.cpp" />
+    <ClCompile Include="..\src\Util\lodepng.cpp" />
+    <ClCompile Include="..\src\Util\LzmaDec.c" />
+    <ClCompile Include="..\src\Util\Matrices.cpp" />
+    <ClCompile Include="..\src\Util\MD5.cpp" />
+    <ClCompile Include="..\src\Util\miniz.c" />
+    <ClCompile Include="..\src\Util\Quaternion.cpp" />
+    <ClCompile Include="..\src\Util\Rect.cpp" />
+    <ClCompile Include="..\src\Util\UString.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\App\App.h" />
+    <ClInclude Include="..\src\App\Osu\Osu.h" />
+    <ClInclude Include="..\src\App\Osu\Osu2.h" />
+    <ClInclude Include="..\src\App\Osu\OsuBackgroundImageHandler.h" />
+    <ClInclude Include="..\src\App\Osu\OsuBackgroundStarCacheLoader.h" />
+    <ClInclude Include="..\src\App\Osu\OsuBeatmap.h" />
+    <ClInclude Include="..\src\App\Osu\OsuBeatmapExample.h" />
+    <ClInclude Include="..\src\App\Osu\OsuBeatmapMania.h" />
+    <ClInclude Include="..\src\App\Osu\OsuBeatmapStandard.h" />
+    <ClInclude Include="..\src\App\Osu\OsuChangelog.h" />
+    <ClInclude Include="..\src\App\Osu\OsuCircle.h" />
+    <ClInclude Include="..\src\App\Osu\OsuDatabase.h" />
+    <ClInclude Include="..\src\App\Osu\OsuDatabaseBeatmap.h" />
+    <ClInclude Include="..\src\App\Osu\OsuDifficultyCalculator.h" />
+    <ClInclude Include="..\src\App\Osu\OsuEditor.h" />
+    <ClInclude Include="..\src\App\Osu\OsuFile.h" />
+    <ClInclude Include="..\src\App\Osu\OsuGameRules.h" />
+    <ClInclude Include="..\src\App\Osu\OsuGameRulesMania.h" />
+    <ClInclude Include="..\src\App\Osu\OsuHitObject.h" />
+    <ClInclude Include="..\src\App\Osu\OsuHUD.h" />
+    <ClInclude Include="..\src\App\Osu\OsuIcons.h" />
+    <ClInclude Include="..\src\App\Osu\OsuKeyBindings.h" />
+    <ClInclude Include="..\src\App\Osu\OsuMainMenu.h" />
+    <ClInclude Include="..\src\App\Osu\OsuManiaNote.h" />
+    <ClInclude Include="..\src\App\Osu\OsuModFPoSu.h" />
+    <ClInclude Include="..\src\App\Osu\OsuModSelector.h" />
+    <ClInclude Include="..\src\App\Osu\OsuMultiplayer.h" />
+    <ClInclude Include="..\src\App\Osu\OsuNotificationOverlay.h" />
+    <ClInclude Include="..\src\App\Osu\OsuOptionsMenu.h" />
+    <ClInclude Include="..\src\App\Osu\OsuPauseMenu.h" />
+    <ClInclude Include="..\src\App\Osu\OsuRankingScreen.h" />
+    <ClInclude Include="..\src\App\Osu\OsuReplay.h" />
+    <ClInclude Include="..\src\App\Osu\OsuRichPresence.h" />
+    <ClInclude Include="..\src\App\Osu\OsuScore.h" />
+    <ClInclude Include="..\src\App\Osu\OsuScreen.h" />
+    <ClInclude Include="..\src\App\Osu\OsuScreenBackable.h" />
+    <ClInclude Include="..\src\App\Osu\OsuSkin.h" />
+    <ClInclude Include="..\src\App\Osu\OsuSkinImage.h" />
+    <ClInclude Include="..\src\App\Osu\OsuSlider.h" />
+    <ClInclude Include="..\src\App\Osu\OsuSliderCurves.h" />
+    <ClInclude Include="..\src\App\Osu\OsuSliderRenderer.h" />
+    <ClInclude Include="..\src\App\Osu\OsuSongBrowser2.h" />
+    <ClInclude Include="..\src\App\Osu\OsuSpinner.h" />
+    <ClInclude Include="..\src\App\Osu\OsuSteamWorkshop.h" />
+    <ClInclude Include="..\src\App\Osu\OsuTooltipOverlay.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUIBackButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUIButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUICheckbox.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUIContextMenu.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUIModSelectorModButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUIPauseMenuButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUIRankingScreenInfoLabel.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUIRankingScreenRankingPanel.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISearchOverlay.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISelectionButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISlider.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserCollectionButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserInfoLabel.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserScoreButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserSongButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserSongDifficultyButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUISongBrowserUserButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUIVolumeSlider.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUpdateHandler.h" />
+    <ClInclude Include="..\src\App\Osu\OsuUserStatsScreen.h" />
+    <ClInclude Include="..\src\App\Osu\OsuVR.h" />
+    <ClInclude Include="..\src\App\Osu\OsuVRTutorial.h" />
+    <ClInclude Include="..\src\App\Osu\OsuVRUIButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuVRUIElement.h" />
+    <ClInclude Include="..\src\App\Osu\OsuVRUIImageButton.h" />
+    <ClInclude Include="..\src\App\Osu\OsuVRUIImageCheckbox.h" />
+    <ClInclude Include="..\src\App\Osu\OsuVRUISlider.h" />
+    <ClInclude Include="..\src\Engine\AnimationHandler.h" />
+    <ClInclude Include="..\src\Engine\Camera.h" />
+    <ClInclude Include="..\src\Engine\ContextMenu.h" />
+    <ClInclude Include="..\src\Engine\ConVar.h" />
+    <ClInclude Include="..\src\Engine\DiscordInterface.h" />
+    <ClInclude Include="..\src\Engine\Engine.h" />
+    <ClInclude Include="..\src\Engine\Environment.h" />
+    <ClInclude Include="..\src\Engine\File.h" />
+    <ClInclude Include="..\src\Engine\Font.h" />
+    <ClInclude Include="..\src\Engine\Graphics.h" />
+    <ClInclude Include="..\src\Engine\Image.h" />
+    <ClInclude Include="..\src\Engine\InputDevice.h" />
+    <ClInclude Include="..\src\Engine\Input\Cursors.h" />
+    <ClInclude Include="..\src\Engine\Input\Gamepad.h" />
+    <ClInclude Include="..\src\Engine\Input\GamepadButtons.h" />
+    <ClInclude Include="..\src\Engine\Input\GamepadEvent.h" />
+    <ClInclude Include="..\src\Engine\Input\GamepadListener.h" />
+    <ClInclude Include="..\src\Engine\Input\Keyboard.h" />
+    <ClInclude Include="..\src\Engine\Input\KeyboardEvent.h" />
+    <ClInclude Include="..\src\Engine\Input\KeyboardListener.h" />
+    <ClInclude Include="..\src\Engine\Input\Mouse.h" />
+    <ClInclude Include="..\src\Engine\Input\MouseListener.h" />
+    <ClInclude Include="..\src\Engine\Input\OpenVRController.h" />
+    <ClInclude Include="..\src\Engine\Main\EngineFeatures.h" />
+    <ClInclude Include="..\src\Engine\NetworkHandler.h" />
+    <ClInclude Include="..\src\Engine\OpenCLInterface.h" />
+    <ClInclude Include="..\src\Engine\OpenVRInterface.h" />
+    <ClInclude Include="..\src\Engine\Platform\KeyboardKeys.h" />
+    <ClInclude Include="..\src\Engine\Platform\NullContextMenu.h" />
+    <ClInclude Include="..\src\Engine\Platform\NullEnvironment.h" />
+    <ClInclude Include="..\src\Engine\Platform\OpenGLHeaders.h" />
+    <ClInclude Include="..\src\Engine\Platform\SDLEnvironment.h" />
+    <ClInclude Include="..\src\Engine\Platform\SDLGLES2Interface.h" />
+    <ClInclude Include="..\src\Engine\Platform\SDLGLLegacyInterface.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinContextMenu.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinEnvironment.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinFile.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinGL3Interface.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinGLLegacyInterface.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinMinGW.Mutex.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinMinGW.secchk.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinRealTimeStylus.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinSDLEnvironment.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinSDLGLES2Interface.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinSWGraphicsInterface.h" />
+    <ClInclude Include="..\src\Engine\Platform\WinTimer.h" />
+    <ClInclude Include="..\src\Engine\Platform\XInputGamepad.h" />
+    <ClInclude Include="..\src\Engine\Profiler.h" />
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11Image.h" />
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11Interface.h" />
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11RenderTarget.h" />
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11Shader.h" />
+    <ClInclude Include="..\src\Engine\Renderer\DirectX11VertexArrayObject.h" />
+    <ClInclude Include="..\src\Engine\Renderer\NullGraphicsInterface.h" />
+    <ClInclude Include="..\src\Engine\Renderer\NullImage.h" />
+    <ClInclude Include="..\src\Engine\Renderer\NullRenderTarget.h" />
+    <ClInclude Include="..\src\Engine\Renderer\NullShader.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGL3Interface.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGL3VertexArrayObject.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLES2Interface.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLES2Shader.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLES2VertexArrayObject.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLImage.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLLegacyInterface.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLRenderTarget.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLShader.h" />
+    <ClInclude Include="..\src\Engine\Renderer\OpenGLVertexArrayObject.h" />
+    <ClInclude Include="..\src\Engine\Renderer\SWGraphicsInterface.h" />
+    <ClInclude Include="..\src\Engine\Renderer\SWImage.h" />
+    <ClInclude Include="..\src\Engine\Renderer\SWRenderTarget.h" />
+    <ClInclude Include="..\src\Engine\Renderer\SWShader.h" />
+    <ClInclude Include="..\src\Engine\Renderer\VulkanGraphicsInterface.h" />
+    <ClInclude Include="..\src\Engine\RenderTarget.h" />
+    <ClInclude Include="..\src\Engine\Resource.h" />
+    <ClInclude Include="..\src\Engine\ResourceManager.h" />
+    <ClInclude Include="..\src\Engine\Shader.h" />
+    <ClInclude Include="..\src\Engine\Sound.h" />
+    <ClInclude Include="..\src\Engine\SoundEngine.h" />
+    <ClInclude Include="..\src\Engine\SquirrelInterface.h" />
+    <ClInclude Include="..\src\Engine\SteamworksInterface.h" />
+    <ClInclude Include="..\src\Engine\TextureAtlas.h" />
+    <ClInclude Include="..\src\Engine\Thread.h" />
+    <ClInclude Include="..\src\Engine\Timer.h" />
+    <ClInclude Include="..\src\Engine\VertexArrayObject.h" />
+    <ClInclude Include="..\src\Engine\VulkanInterface.h" />
+    <ClInclude Include="..\src\GUI\CBaseUI.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIBoxShadow.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIButton.h" />
+    <ClInclude Include="..\src\GUI\CBaseUICanvas.h" />
+    <ClInclude Include="..\src\GUI\CBaseUICheckbox.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIContainer.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIContainerBase.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIContainerBox.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIContainerHorizontalBox.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIContainerVerticalBox.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIElement.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIImage.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIImageButton.h" />
+    <ClInclude Include="..\src\GUI\CBaseUILabel.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIScrollView.h" />
+    <ClInclude Include="..\src\GUI\CBaseUISlider.h" />
+    <ClInclude Include="..\src\GUI\CBaseUITextbox.h" />
+    <ClInclude Include="..\src\GUI\CBaseUITextField.h" />
+    <ClInclude Include="..\src\GUI\CBaseUIWindow.h" />
+    <ClInclude Include="..\src\GUI\CWindowManager.h" />
+    <ClInclude Include="..\src\GUI\GaussianBlurKernel.h" />
+    <ClInclude Include="..\src\GUI\Windows\Console.h" />
+    <ClInclude Include="..\src\GUI\Windows\ConsoleBox.h" />
+    <ClInclude Include="..\src\GUI\Windows\VisualProfiler.h" />
+    <ClInclude Include="..\src\Util\AES.h" />
+    <ClInclude Include="..\src\Util\cbase.h" />
+    <ClInclude Include="..\src\Util\FastDelegate.h" />
+    <ClInclude Include="..\src\Util\JSON.h" />
+    <ClInclude Include="..\src\Util\JSONValue.h" />
+    <ClInclude Include="..\src\Util\lodepng.h" />
+    <ClInclude Include="..\src\Util\LzmaDec.h" />
+    <ClInclude Include="..\src\Util\Matrices.h" />
+    <ClInclude Include="..\src\Util\MD5.h" />
+    <ClInclude Include="..\src\Util\miniz.h" />
+    <ClInclude Include="..\src\Util\Quaternion.h" />
+    <ClInclude Include="..\src\Util\Rect.h" />
+    <ClInclude Include="..\src\Util\UString.h" />
+    <ClInclude Include="..\src\Util\Vectors.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
