@@ -6,3 +6,4 @@ msvc/Release/
 msvc/Debug/
 msvc/x64/
 msvc/*.user
+src/App/Osu/
